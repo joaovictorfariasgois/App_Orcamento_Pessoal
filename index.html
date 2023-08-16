@@ -13,7 +13,9 @@
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
     <script src="assets/app.js"></script>
+
 	</head>
 
   <body>
@@ -53,8 +55,6 @@
         <div class="col-md-2">
           <select class="form-control" id="ano">
             <option value="">Ano</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
             <option value="2020">2020</option>
             <option value="2021">2021</option>
             <option value="2022">2022</option>
@@ -107,15 +107,12 @@
         </div>
 
         <div class="col-md-2 d-flex justify-content-end">
-          <button type="button" onclick="cadastrarDespesa()" class="btn btn-success">
+          <button type="button" class="btn btn-success" onclick="cadastrarDespesa()">
             <i class="fas fa-plus"></i>
           </button>
         </div>
       </div>
     </div>
-
-
-
 
     <!-- Modal -->
     <div class="modal fade" id="modalRegistraDespesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -134,7 +131,7 @@
         </div>
       </div>
     </div>
-    
+
   </body>	
 
 </html>
