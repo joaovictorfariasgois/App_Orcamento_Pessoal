@@ -36,4 +36,4 @@ Contribuições são bem-vindas! Se você quiser melhorar este aplicativo, corri
 ## Licença
 Este projeto está licenciado sob a <b>Licença MIT.</b>
 
-<b>Nota:</b> Este é um projeto de exemplo fictício criado para fins de demonstração e aprendizado. Não se destina a ser usado como um aplicativo de produção real.
+
